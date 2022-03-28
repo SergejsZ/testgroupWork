@@ -18,3 +18,7 @@ Route::resource('companies', CompanyCRUDController::class);
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', function () {
+    return view('aboutus');
+});
